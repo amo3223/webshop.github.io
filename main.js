@@ -6,28 +6,28 @@ var app = new Vue({
           { 
             id:'1', 
             itemName:"漢堡",
-            imgUrl:"https://imgur.com/X8992RE",
+            imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
             price:'500',
             count:'2'
           },
           {  
             id:'2',
-            itemName:'牛肉麵',
-            imgUrl:'https://i.imgur.com/MxLHdZC.jpg',
+            itemName:"牛肉麵",
+            imgUrl:"https://i.imgur.com/MxLHdZC.jpg",
             price:'790',
             count:'3'
           },
           {
             id:'3',
-            itemName:'redbull',
-            imgUrl:'https://i.imgur.com/JGslzHw.jpg',
+            itemName:"redbull",
+            imgUrl:"https://i.imgur.com/JGslzHw.jpg",
             price:'1200',
             count:'1'
           },
           {
             id:'4',
-            itemName:'足球',
-            imgUrl:'https://imgur.com/X8992RE',
+            itemName:"足球",
+            imgUrl:"https://i.imgur.com/X8992RE.jpg",
             price:'2300',
             count:'1'
           },
