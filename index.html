@@ -31,7 +31,9 @@
                                 <button @click="handlePlus(item)">+</button>
                             </div> 
                             <div class="amount">{{item.price * item.count}}</div>
-                            
+                            <div class="operate">
+                                <button @click="handledelete(index)">刪除</button>
+                            </div>
                     </div>
             </div>
   
