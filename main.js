@@ -27,7 +27,7 @@ var app = new Vue({
           {
             id:'4',
             itemName:'足球',
-            imgUrl:'https://i.imgur.com/X8992RE.jpg',
+            imgUrl:'https://imgur.com/X8992RE',
             price:'2300',
             count:'1'
           },
