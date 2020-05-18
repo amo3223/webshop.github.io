@@ -6,7 +6,7 @@ var app = new Vue({
           {
             id:'1',
             itemName:'漢堡',
-            imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
+            imgUrl:"https://imgur.com/X8992RE",
             price:'500',
             count:'2'
           },
