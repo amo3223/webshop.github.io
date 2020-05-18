@@ -21,14 +21,14 @@ var app = new Vue({
             id:'3',
             itemName:"redbull",
             imgUrl:"https://i.imgur.com/JGslzHw.jpg",
-            price:'1200',
+            price:'1200', 
             count:'1'
           },
           {
             id:'4',
             itemName:"足球",
             imgUrl:"https://i.imgur.com/X8992RE.jpg",
-            price:'2300',
+            price:'2300', 
             count:'1'
           },
     ]
