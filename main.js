@@ -4,7 +4,7 @@ var app = new Vue({
     data:{
         itemList:[
           { 
-            id:'1',
+            id:'1', 
             itemName:"漢堡",
             imgUrl:"https://imgur.com/X8992RE",
             price:'500',
