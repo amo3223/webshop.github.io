@@ -10,7 +10,7 @@ var app = new Vue({
             price:'500',
             count:'2'
           },
-          { 
+          {  
             id:'2',
             itemName:'牛肉麵',
             imgUrl:'https://i.imgur.com/MxLHdZC.jpg',
