@@ -6,7 +6,7 @@ var app = new Vue({
           {
             id:'1',
             itemName:'優質短袖白T',
-            imgUrl:'https://images.unsplash.com/photo-1534961880437-ce5ae2033053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80',
+            imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
             price:'500',
             count:'2'
           },
