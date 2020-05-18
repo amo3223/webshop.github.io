@@ -8,14 +8,14 @@ var app = new Vue({
             itemName:'漢堡',
             imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
             price:'500',
-            count:'2'
+            count:'1'
           },
           {  
             id:'2',
             itemName:"牛肉麵",
             imgUrl:"https://i.imgur.com/MxLHdZC.jpg",
             price:'790',
-            count:'3'
+            count:'1'
           },
           {
             id:'3',
