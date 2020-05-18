@@ -42,8 +42,12 @@ var app = new Vue({
             item.count--;                
             }
         },
-   
+    handledelete: function(index){
+            console.log(this);
+            this.itemList.splice(index,1);
+        }
+    },
     computed:{
- 
+        
     }
 })
