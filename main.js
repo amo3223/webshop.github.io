@@ -3,7 +3,7 @@ var app = new Vue({
     el:'#app',
     data:{ 
         itemList:[
-          { 
+          {  
             id:'1', 
             itemName:'漢堡',
             imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
