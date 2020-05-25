@@ -54,4 +54,4 @@ var app = new Vue({
   <div style="border:1px black solid;width:500px;height:500px;text-align:right">
   <input type="button" value="click me!" />
   </div>
-})
+}) 
