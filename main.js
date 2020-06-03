@@ -5,32 +5,26 @@ var app = new Vue({
         itemList:[
           {  
             id:'1', 
-            itemName:'漢堡',
+            itemName:'起司漢堡',
             imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
-            price:'500',
+            price:'89',
             count:'0'
           },
           {  
             id:'2',
-            itemName:"牛肉麵",
+            itemName:"炸雞",
             imgUrl:"https://i.imgur.com/MxLHdZC.jpg",
-            price:'790',
+            price:'299',
             count:'0'
           },
           {
             id:'3',
-            itemName:"redbull",
+            itemName:"薯條",
             imgUrl:"https://i.imgur.com/JGslzHw.jpg",
-            price:'1200', 
+            price:'29', 
             count:'0'
           },
-          {
-            id:'4',
-            itemName:"足球",
-            imgUrl:"https://i.imgur.com/X8992RE.jpg",
-            price:'2300', 
-            count:'0'
-          },
+          
     ]
     },
     methods:{
