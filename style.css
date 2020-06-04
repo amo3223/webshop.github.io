@@ -5,7 +5,7 @@ body{
   
 .item_header{
     display: flex;
-    width: 1000px;
+    width: 1000px; 
     margin: 0 auto;
     height: 30px;
     background-color: #fff; 
