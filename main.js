@@ -6,21 +6,21 @@ var app = new Vue({
           {  
             id:'1', 
             itemName:'起司漢堡',
-            imgUrl:"https://i.imgur.com/Pnz3eEH.jpg",
+            imgUrl:"https://i.imgur.com/Sz96Tnz.jpg",
             price:'89',
             count:'0'
           },
           {  
             id:'2',
             itemName:"炸雞",
-            imgUrl:"https://i.imgur.com/MxLHdZC.jpg",
+            imgUrl:"https://i.imgur.com/HPlMbn0.jpg",
             price:'299',
             count:'0'
           },
           {
             id:'3',
             itemName:"薯條",
-            imgUrl:"https://i.imgur.com/JGslzHw.jpg",
+            imgUrl:"https://i.imgur.com/DG6LuyD.jpg",
             price:'29', 
             count:'0'
           },
