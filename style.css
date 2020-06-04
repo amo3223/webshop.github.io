@@ -15,7 +15,7 @@ body{
 .item_header div{ 
     width: 200px;
     color: #888;
-    line-height: 10px;
+    line-height: 20px;
 }
 .item_header .item_detail{
     width: 50%;
