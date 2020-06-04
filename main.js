@@ -35,15 +35,14 @@ var app = new Vue({
             if(item.count>0){
             item.count--;                
             }
-        },
-           
+        },  
         handledelete: function(index){
             console.log(this);
             this.itemList.splice(index,1);
         }
     },
     computed:{
-        
+         
     }
   
 })  
