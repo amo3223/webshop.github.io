@@ -10,7 +10,7 @@ body{
     height: 30px;
     background-color: #fff; 
     border-radius: 3px;
-    padding-left: 10px;
+    padding-left: 10px; 
 }
 .item_header div{ 
     width: 200px;
