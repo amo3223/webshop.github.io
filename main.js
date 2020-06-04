@@ -37,11 +37,7 @@ var app = new Vue({
             }
         },
       
-    handledelete: function(index){
-            console.log(this);
-            this.itemList.splice(index,1);
-        }
-    },
+    
     computed:{
         
     }
