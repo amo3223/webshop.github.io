@@ -25,7 +25,7 @@ var app = new Vue({
             count:'0'
           },
           
-    ]
+    ] 
     },
     methods:{
         handlePlus: function(item){
