@@ -3,7 +3,7 @@ body{
     background-color:black;
 }
   
-.item_header{
+.item_header{ 
     display: flex;
     width: 1000px; 
     margin: 0 auto;
