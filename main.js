@@ -51,7 +51,7 @@ var app = new Vue({
             item.count++;
         },
         handleSub: function(item){
-            if(item.count>1){
+            if(item.count>0){
             item.count--;                
             }
         },
