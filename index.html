@@ -1,29 +1,30 @@
- <!DOCTYPE html>       
-<html lang="en">          
-<head>           
-    <meta charset="UTF-8"> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>輔大 WEB商城</title>
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
     <link rel="stylesheet" href="style.css">
-                 
-</head>  
-<body>    
-    <div id="app"> 
-        <div class="container">  
+    
+</head>
+<body>
+    <div id="app">
+        <div class="container">
             <div class="item_header">
                 <div class="item_detail">商品</div>
-                <div class="price">單價</div> 
+                <div class="price">單價</div>
                 <div class="count">數量</div> 
                 <div class="amount">總計</div>
-           
+                <div class="operate">操作</div>
             </div>
             <div class="item_container" v-for="(item, index) in itemList" :key="item.id" >
                     <div class="item_header item_body">
                             <div class="item_detail">
                                 <img v-bind:src="item.imgUrl" alt="">
                                 <div class="name">{{item.itemName}}</div>
-                            </div>       
-                             
+                            </div>
+                            
                             <div class="price"><span>$</span>{{item.price}}</div>
                             <div class="count">
                                 <button @click="handleSub(item)">-</button>
@@ -32,22 +33,20 @@
                             </div> 
                             <div class="amount">{{item.price * item.count}}</div>
                             <div class="operate">
-                                 
+                                <button @click="handledelete(index)">刪除</button>
                             </div>
                     </div>
             </div>
-                
-            
+
+
         </div>
-     
     </div>
-    <br><br>
+ <br><br>
      
   
     <div  align="center"  style="border:1px  black solid;">
     <input  type="button" style="width:160px;height:50px;" value="訂單成立" onclick="javascript:location.href=self.location.href='https://amo3223.github.io/order.github.io/'"   />
     </div> 
- 
-</body> 
+</body>
 <script src="main.js"></script>
-</html> 
+</html>
