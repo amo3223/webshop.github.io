@@ -8,7 +8,7 @@ var app = new Vue({
             imgUrl:"https://i.imgur.com/Sz96Tnz.jpg", 
             price:'89',
             count:'0'
-          },
+          }, 
           {  
             id:'2',
             itemName:"炸雞",
