@@ -1,9 +1,8 @@
-       
-var app = new Vue({  
+var app = new Vue({
     el:'#app',
-    data:{     
+    data:{
         itemList:[
-          {    
+        {    
             id:'1',  
             itemName:'起司漢堡',
             imgUrl:"https://i.imgur.com/Sz96Tnz.jpg", 
@@ -45,26 +44,23 @@ var app = new Vue({
             price:'2990', 
             count:'0'
           },     
-          
-          
-    ]  
+    ]
     },
     methods:{
         handlePlus: function(item){
             item.count++;
         },
         handleSub: function(item){
-            if(item.count>0){
+            if(item.count>1){
             item.count--;                
             }
-        },  
+        },
         handledelete: function(index){
             console.log(this);
             this.itemList.splice(index,1);
         }
     },
     computed:{
-         
+
     }
-  
-})  
+})
