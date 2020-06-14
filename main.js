@@ -24,6 +24,28 @@ var app = new Vue({
             price:'29', 
             count:'0'
           },
+          {
+            id:'4',
+            itemName:"海膽丼",
+            imgUrl:"https://i.imgur.com/HtMVphP.jpg",
+            price:'690', 
+            count:'0'
+          },
+          {
+            id:'5',
+            itemName:"櫻桃鴨握壽司",
+            imgUrl:"https://i.imgur.com/2TtIFIW.jpg",
+            price:'600', 
+            count:'0'
+          },
+          {
+            id:'6',
+            itemName:"涮涮鍋",
+            imgUrl:"https://i.imgur.com/l7iLD6S.jpg",
+            price:'2990', 
+            count:'0'
+          },     
+          
           
     ]  
     },
