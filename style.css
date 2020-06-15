@@ -1,7 +1,16 @@
  
 body{     
     background-color:black;  
-}    
+}  
+.item_local{
+display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-left: 10px;
+}
      
 .item_header{ 
      display: flex;
